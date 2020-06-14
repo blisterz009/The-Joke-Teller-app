@@ -1,10 +1,4 @@
 class App extends React.Component {
-    render() {
-        return (<LoggedIn />);
-    }
-}
-
-class LoggedIn extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
